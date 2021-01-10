@@ -1,0 +1,10 @@
+#cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 60vh;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px 0;
+  overflow-y: auto;
+}

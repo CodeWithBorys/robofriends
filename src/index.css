@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #8BC34A, #009688), no-repeat;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  color: #FFEB3B;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 6px black;
+  padding-top: 20px;
+}
+
+.footer {
+  color: #ddd;
+}
+
+.footer a {
+  display: inline-block;
+  text-decoration: none;
+  background: #ddd;
+  padding: 5px 8px;
+  color: #009688;
+  transform: skewX(-20deg);
 }

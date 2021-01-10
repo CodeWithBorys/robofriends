@@ -1,0 +1,14 @@
+.roboCard {
+  background: #00BCD4;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 1px 4px 0 dimgrey;
+  cursor: pointer;
+  margin: 5px;
+  transition: all .2s;
+}
+
+.roboCard:hover {
+  transform: scale(1.05);
+}
